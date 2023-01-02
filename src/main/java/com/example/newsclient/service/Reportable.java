@@ -1,7 +1,6 @@
 package com.example.newsclient.service;
 
 import com.example.newsclient.model.NewsArticle;
-
 import java.util.List;
 
 public interface Reportable {

@@ -6,7 +6,7 @@ import java.util.List;
 
 @Data
 @NoArgsConstructor
-public final class NewsArticle {
+public class NewsArticle {
 
     private String id;
     private String category;

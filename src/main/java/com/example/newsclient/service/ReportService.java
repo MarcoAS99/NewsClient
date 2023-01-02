@@ -1,7 +1,6 @@
 package com.example.newsclient.service;
 
 import lombok.extern.slf4j.Slf4j;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

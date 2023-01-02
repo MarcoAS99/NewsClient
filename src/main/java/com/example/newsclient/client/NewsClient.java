@@ -2,9 +2,6 @@ package com.example.newsclient.client;
 
 import com.example.newsclient.model.NewsArticle;
 import org.springframework.web.reactive.function.client.WebClient;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 import java.util.*;
 
 public class NewsClient {
