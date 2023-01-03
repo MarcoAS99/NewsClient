@@ -8,9 +8,7 @@ public class NewsClient {
     private final String SERVER_API = "http://localhost:8080/api";
     private final WebClient webClient;
 
-    public NewsClient(){
-        webClient = WebClient.builder().baseUrl(SERVER_API).build();
-    }
+    public NewsClient(){ webClient = WebClient.builder().baseUrl(SERVER_API).build(); }
 
     public List<NewsArticle> getNews(){
         List<NewsArticle> newsArticles = Arrays.stream(webClient.get().uri("/news").retrieve().bodyToMono(NewsArticle[].class).block()).toList();
